@@ -1,0 +1,44 @@
+@charset "UTF-8";
+.publicHeaderNav {
+  background: rgba(0, 0, 0, 0.41);
+  padding: 0 50px;
+}
+.logo {
+  font-size: 32px;
+  color: #fff;
+  margin-right: 3.125rem;
+  font-family: 'Alegreya-SC';
+}
+
+.logo > img {
+  width: 4.125rem;
+  height: 3.25rem;
+}
+
+.publicHeader_nav_item {
+  padding: 1.875rem 0;
+  margin: auto 0.9375rem;
+  color: #fff;
+  cursor: pointer;
+  border-bottom: 0.125rem solid rgba(0, 0, 0, 0);
+  font-size: 1.125rem;
+}
+
+.checked {
+  border-bottom: 0.125rem solid #9680FF;
+}
+
+.checkedR {
+  color: #9680FF;
+}
+
+.navLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navright {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

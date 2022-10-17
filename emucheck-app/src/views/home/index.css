@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.homeView-top {
+  height: 48.5625rem;
+  /*background-color: pink;*/
+}
+.videoClick_img {
+  width: 2.4375rem;
+  height: 2.4375rem;
+  top: 1.9375rem;
+  left: 50%;
+  margin-left: -1.21875rem;
+  background: url("../../assets/images/videoClick.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 2;
+  cursor: pointer;
+}
+.homeVide-top-videoBtn {
+  width: 17.5rem;
+  height: 9.5rem;
+  top: 0;
+  left: 50%;
+  margin-left: -8.75rem;
+  z-index: 1;
+  background: url("../../assets/images/video_top.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homeView-top-video {
+  width: 43.5625rem;
+  height: 13.9375rem;
+  top: 5.5625rem;
+  left: 50%;
+  margin-left: -21.78125rem;
+  z-index: 1;
+  background: url("../../assets/images/zimu.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.homeView-top-bom {
+  width: 76rem;
+  /*height: 32.1rem;*/
+  top: 13.0625rem;
+  left: 50%;
+  margin-left: -38rem;
+  z-index: 1;
+}
+.homeView-top-bom-item {
+  width: 76rem;
+  /*height: 32.1rem;*/
+  /*background-color: yellowgreen;*/
+}
+.topBomItem-l {
+  width: 37.625rem;
+  height: 30.25rem;
+}
+.topBomItem-left {
+  background: url("../../assets/images/video_l.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.topBomItem-right {
+  background: url("../../assets/images/video_r.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.topBomItem-right-body {
+  padding: 2rem 1.5rem;
+}
+.topBomItemRightImg {
+  width: 7.125rem;
+  height: 7rem;
+  margin-top: 3rem;
+}
