@@ -1,0 +1,40 @@
+<template>
+  <section>
+  <h2>test</h2>
+  <ul>
+    <li></li>
+  </ul>
+</section>
+</template>
+
+<script>
+export default {
+  data() {
+    return{
+      test:[
+        {
+          id:"qwe",
+          name:"qwerty"
+        }
+      ],
+      test2:[
+      {
+          id:"qweasd",
+          name:"qwertzxcy"
+        }
+      ]
+    };
+  }
+}
+</script>
+
+<style>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+}
+</style>
