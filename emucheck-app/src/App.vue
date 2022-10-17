@@ -1,9 +1,7 @@
 <template>
   <section>
-  <h2>test</h2>
-  <ul>
-    <li></li>
-  </ul>
+    <div>test</div>
+    <div>123</div>
 </section>
 </template>
 
