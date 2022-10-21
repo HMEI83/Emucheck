@@ -1,29 +1,17 @@
 <template>
-  <section>
-    <div>test</div>
-    <div>123</div>
-</section>
+ <div>
+  <header-view></header-view>
+ </div>
 </template>
 
 <script>
+import HeaderView from './views/HeaderView.vue'
 export default {
-  data() {
-    return{
-      test:[
-        {
-          id:"qwe",
-          name:"qwerty"
-        }
-      ],
-      test2:[
-      {
-          id:"qweasd",
-          name:"qwertzxcy"
-        }
-      ]
-    };
+  components:{
+    'header-view': HeaderView
   }
 }
+ 
 </script>
 
 <style>
