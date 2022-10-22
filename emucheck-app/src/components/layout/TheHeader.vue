@@ -2,14 +2,14 @@
   <header>
     <nav>
       <h1>
-        <router-link to="/">Find a Coach</router-link>
+        <router-link to="/">Logo</router-link>
       </h1>
       <ul>
         <li>
-          <router-link to="/coaches">All Coaches</router-link>
+          <router-link to="/login">Login</router-link>
         </li>
         <li>
-          <router-link to="/requests">Requests</router-link>
+          <router-link to="/signUp">Sign Up</router-link>
         </li>
       </ul>
     </nav>
